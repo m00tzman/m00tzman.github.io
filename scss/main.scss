@@ -8,7 +8,8 @@ body{
     max-width: 900px;
     padding: 30px 25px;
 }
-.header{
+#header{
+    border-top: medium solid #B17AD0;
     background-color: #000000;
     background-image: url('../images/header.jpg');
     background-position: 30% 50%;
@@ -33,6 +34,56 @@ body{
     }
 }
 
-.about{
-    background-color: #EAE9E7;
+#about{
+    background-color: #E3DEE5;
+    h3{
+        font-weight: 200;
+        margin-bottom: 0;
+    }
+}
+
+#projects{
+    background-color: #B17AD0;
+    h3{
+        font-size: 1.5em;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .project{
+        min-width: 100%;
+        min-height: 100%;
+        border-radius: 10px;
+        background-color: #E3DEE5;
+        margin-bottom: 10px;
+        overflow: hidden;
+        .wrapper{
+            margin: 1%;
+        }
+        .company{
+            font-weight: bold;
+                }
+        .image{
+            width: 35%;
+            height: 35%;
+            margin: 5px;
+            float: left;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+        .image:nth-child(odd){
+            clear:both;
+        }
+        .description{
+            max-width: 100%;
+            max-height: 100%;
+            overflow: auto;
+            p{
+                margin-top:0;
+            }
+        }
+    }
+
 }
