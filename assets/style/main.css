@@ -57,7 +57,7 @@ body {
     #projects .project .image {
       width: 35%;
       height: 35%;
-      margin: 5px;
+      margin: 6px;
       float: left; }
       #projects .project .image img {
         max-width: 100%;
