@@ -1,11 +1,12 @@
 body {
+  background-color: #E3DEE5;
   font-family: "Helvetica Neue", Arial, serif;
   font-weight: 200; }
 
 .content-wrapper {
   line-height: 1.4;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 75%;
   padding: 30px 25px; }
 
 #header {
@@ -31,44 +32,41 @@ body {
     font-size: 2em;
     font-weight: 100; }
 
+.section-header {
+  font-size: 8em;
+  margin-top: 0;
+  font-weight: 200;
+  position: absolute;
+  z-index: 4;
+  color: #737070; }
+
 #about {
-  background-color: #E3DEE5; }
+  margin-top: 6%;
+  margin-bottom: 6%; }
   #about h3 {
-    font-weight: 200;
     margin-bottom: 0; }
+  #about .content-wrapper {
+    background-color: rgba(177, 122, 208, 0.7);
+    position: relative;
+    z-index: 6; }
 
 #projects {
   background-color: #B17AD0; }
-  #projects h3 {
-    font-size: 1.5em; }
   #projects ul {
-    list-style-type: none; }
-  #projects .project {
+    list-style-type: none;
     min-width: 100%;
-    min-height: 100%;
-    border-radius: 10px;
-    background-color: #E3DEE5;
-    margin-bottom: 10px;
-    overflow: hidden; }
-    #projects .project .wrapper {
-      margin: 1%; }
-    #projects .project .company {
-      font-weight: bold; }
-    #projects .project .image {
-      width: 35%;
-      height: 35%;
-      margin: 6px;
-      float: left; }
-      #projects .project .image img {
-        max-width: 100%;
-        max-height: 100%; }
-    #projects .project .image:nth-child(odd) {
-      clear: both; }
-    #projects .project .description {
-      max-width: 100%;
-      max-height: 100%;
-      overflow: auto; }
-      #projects .project .description p {
-        margin-top: 0; }
+    margin: 0;
+    padding: 0;
+    padding-top: 6%;
+    padding-bottom: 6%; }
+    #projects ul .content-wrapper {
+      padding-top: 4%;
+      background-color: rgba(227, 222, 229, 0.5);
+      position: relative;
+      z-index: 6; }
+      #projects ul .content-wrapper .title {
+        margin: 0; }
+        #projects ul .content-wrapper .title .company {
+          font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
