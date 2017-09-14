@@ -50,6 +50,7 @@ body{
     }
     .content-wrapper{ 
         background-color:rgba(255,106,213, 0.7);
+        padding-top: 4%;
         position: relative;
         z-index: 6;
     }
@@ -66,7 +67,7 @@ body{
         padding-top:6%;
         padding-bottom: 6%;
         .content-wrapper{
-            padding-top: 4%;
+            padding-top: 5%;
             background-color: rgba(227, 222, 229, 0.5);
             position: relative;
             z-index: 6;                    
@@ -74,6 +75,7 @@ body{
                 margin: 0;
                 .company{
                     font-weight: bold;
+                    font-size: 21pt;
                 }
             }
             .image{
