@@ -10,7 +10,7 @@ body {
   padding: 30px 25px; }
 
 #header {
-  border-top: medium solid #B17AD0;
+  border-top: medium solid #FF6AD5;
   background-color: #000000;
   background-image: url("../images/header.jpg");
   background-position: 30% 50%;
@@ -38,7 +38,7 @@ body {
   font-weight: 200;
   position: absolute;
   z-index: 3;
-  color: #737070; }
+  color: #000000; }
 
 #about {
   margin-top: 6%;
@@ -46,12 +46,12 @@ body {
   #about h3 {
     margin-bottom: 0; }
   #about .content-wrapper {
-    background-color: rgba(177, 122, 208, 0.7);
+    background-color: rgba(255, 106, 213, 0.7);
     position: relative;
     z-index: 6; }
 
 #projects {
-  background-color: #B17AD0; }
+  background-color: #FF6AD5; }
   #projects ul {
     list-style-type: none;
     min-width: 100%;
@@ -68,5 +68,13 @@ body {
         margin: 0; }
         #projects ul .content-wrapper .title .company {
           font-weight: bold; }
+      #projects ul .content-wrapper .image {
+        float: left;
+        margin-top: 1%;
+        margin-right: 5%; }
+        #projects ul .content-wrapper .image img {
+          margin: 5px; }
+      #projects ul .content-wrapper .description {
+        overflow: auto; }
 
 /*# sourceMappingURL=main.css.map */

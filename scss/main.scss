@@ -10,7 +10,7 @@ body{
     padding: 30px 25px;
 }
 #header{
-    border-top: medium solid #B17AD0;
+    border-top: medium solid #FF6AD5;
     background-color: #000000;
     background-image: url('../images/header.jpg');
     background-position: 30% 50%;
@@ -40,7 +40,7 @@ body{
     font-weight: 200;
     position: absolute;
     z-index: 3;
-    color: #737070
+    color: #000000;
 }
 #about{
     margin-top: 6%;
@@ -49,14 +49,14 @@ body{
         margin-bottom: 0;
     }
     .content-wrapper{ 
-        background-color:rgba(177, 122, 208, 0.7);
+        background-color:rgba(255,106,213, 0.7);
         position: relative;
         z-index: 6;
     }
 }
 
 #projects{
-    background-color: #B17AD0;
+    background-color: #FF6AD5;
 
     ul{
         list-style-type: none;
@@ -75,6 +75,17 @@ body{
                 .company{
                     font-weight: bold;
                 }
+            }
+            .image{
+                float: left;
+                margin-top: 1%;
+                margin-right: 5%;
+                img{
+                    margin: 5px
+                }
+            }
+            .description{
+                overflow: auto;
             }
         }
     }
