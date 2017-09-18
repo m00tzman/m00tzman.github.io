@@ -66,16 +66,22 @@ body{
         padding: 0;
         padding-top:6%;
         padding-bottom: 6%;
+        clear: both;
         .content-wrapper{
             padding-top: 5%;
             background-color: rgba(227, 222, 229, 0.5);
             position: relative;
-            z-index: 6;                    
+            z-index: 6;  
+            overflow:auto;                 
             .title{
                 margin: 0;
                 .company{
                     font-weight: bold;
                     font-size: 21pt;
+                }
+                .position{
+                    margin-left:5px;
+                    font-size: 10pt;
                 }
             }
             .image{
@@ -88,6 +94,9 @@ body{
             }
             .description{
                 overflow: auto;
+                a{
+                    font-weight: bold;
+                }
             }
         }
     }
