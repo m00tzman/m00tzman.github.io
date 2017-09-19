@@ -5,7 +5,8 @@ window.onload = function () {
             console.log("it works!");
             $("#skills-list li").each(function () {
                 $(this).next().show(1000);
-            })
+            });
+            $("#skills-list li").last().css({ clear: both })
             clearInterval(interval);
         }
     }, 250);

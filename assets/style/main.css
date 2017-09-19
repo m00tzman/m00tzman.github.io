@@ -95,8 +95,17 @@ body {
     background-color: rgba(255, 106, 213, 0.7);
     padding-top: 4%;
     position: relative;
-    z-index: 6; }
-    #skills .content-wrapper #skills-list li {
-      display: none; }
+    z-index: 6;
+    overflow: hidden; }
+    #skills .content-wrapper #skills-list {
+      list-style: none;
+      width: 90%;
+      margin: auto; }
+      #skills .content-wrapper #skills-list li {
+        display: none;
+        background-color: #e3dee5;
+        font-size: 18pt;
+        margin: 3%;
+        float: left; }
 
 /*# sourceMappingURL=main.css.map */
