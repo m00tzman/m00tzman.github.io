@@ -115,19 +115,33 @@ body{
         overflow: hidden;
         #skills-list{
             list-style: none;
-            width: 90%;
+            width: 95%;
             margin: auto;
             li{
-                display: none;
-                background-color:  rgb(227, 222, 229);
-                font-size: 18pt;
-                margin: 3%;
+                // display: none;
+                background-color:  rgba(227, 222, 229, 0.9);
+                font-size: 16pt;
+                padding: 1%;
+                margin: 1%;
                 float: left;
+                border-style: solid;
+                border-color: white;
+                border-width: 3px;
+                border-radius: 10px;
             }
-            //li:nth-child(5){
-              //  clear: both;
-            //}
+
         }
     }
 
+}
+#contact{
+    background-color: #FF6AD5;
+    padding-top: .01%;
+    padding-bottom: 6%;
+    .content-wrapper{
+        overflow: hidden;
+        margin-top: 7%;
+        position: relative;    
+        background-color: rgba(227, 222, 229, 0.5);
+    }
 }

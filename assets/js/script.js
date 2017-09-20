@@ -3,10 +3,9 @@ window.onload = function () {
     var interval = setInterval(function () {
         if ($(window).scrollTop() >= target) {
             console.log("it works!");
-            $("#skills-list li").each(function () {
-                $(this).next().show(1000);
+            $("#skills-list li").each(function (i) {
+                $(this).delay(100 * i).fadeIn(500);
             });
-            $("#skills-list li").last().css({ clear: both })
             clearInterval(interval);
         }
     }, 250);
