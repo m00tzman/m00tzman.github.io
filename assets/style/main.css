@@ -3,6 +3,15 @@ body {
   font-family: "Helvetica Neue", Arial, serif;
   font-weight: 200; }
 
+a:link {
+  color: black; }
+
+a:hover {
+  color: white; }
+
+a:visited {
+  color: black; }
+
 .content-wrapper {
   line-height: 1.4;
   margin: 0 auto;
@@ -102,6 +111,7 @@ body {
       width: 95%;
       margin: auto; }
       #skills .content-wrapper #skills-list li {
+        display: none;
         background-color: rgba(227, 222, 229, 0.9);
         font-size: 16pt;
         padding: 1%;
@@ -118,8 +128,35 @@ body {
   padding-bottom: 6%; }
   #contact .content-wrapper {
     overflow: hidden;
-    margin-top: 7%;
+    margin-top: 6%;
+    padding-top: 4%;
     position: relative;
+    z-index: 6;
     background-color: rgba(227, 222, 229, 0.5); }
+    #contact .content-wrapper .email {
+      max-width: 48%;
+      float: left;
+      margin-right: 4%;
+      text-align: center; }
+      #contact .content-wrapper .email .email-address {
+        font-size: 2em; }
+    #contact .content-wrapper .social {
+      float: left;
+      max-width: 48%; }
+      #contact .content-wrapper .social .fa:link {
+        color: black;
+        text-decoration: none; }
+      #contact .content-wrapper .social .fa:hover {
+        color: white;
+        text-decoration: none; }
+      #contact .content-wrapper .social .fa:visited {
+        color: black;
+        text-decoration: none; }
+      #contact .content-wrapper .social .social-list {
+        margin: auto;
+        text-align: center; }
+        #contact .content-wrapper .social .social-list .platform {
+          float: left;
+          margin-right: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
