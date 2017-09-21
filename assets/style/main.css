@@ -21,8 +21,9 @@ a:visited {
 #header {
   border-top: medium solid #FF6AD5;
   background-color: #000000;
-  background-image: url("../images/header.jpg");
-  background-position: 30% 50%;
+  background-image: url("../images/header2.jpg");
+  background-size: 100% 100%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   color: white;
   display: flex;
